@@ -8,6 +8,8 @@ A place to bring together public research and data on multiple sclerosis (MS).
 - [`docs/public-data-inventory.md`](docs/public-data-inventory.md): what each public source contains, how much, and how useful it is for myelin repair research.
 - [`docs/myelin-repair-plan.md`](docs/myelin-repair-plan.md): the plan for connecting these sources and researching ways to restore myelin (remyelination).
 
+- [`docs/track-a-trial-review.md`](docs/track-a-trial-review.md): review of the 105 myelin-repair trials so far, and what their results suggest.
+- [`data/curation/`](data/curation/): hand-made review files (trial classifications and trials from registries other than ClinicalTrials.gov).
 - [`src/msr/`](src/msr/): Python code that fetches public data. Raw downloads go to `data/raw/` (gitignored). Small shareable tables go to `data/derived/`, each with a `.manifest.json` recording the source, query, date and license.
 - [`data/derived/`](data/derived/): `trials_remyelination.csv` (myelin-repair trials from ClinicalTrials.gov) and `pubmed_ms_remyelination.csv` (citations of papers on MS and remyelination).
 
@@ -26,6 +28,7 @@ Fetch or refresh the data:
 ```bash
 .venv/bin/python -m msr.fetch.clinicaltrials
 .venv/bin/python -m msr.fetch.pubmed
+.venv/bin/python -m msr.analysis.trials   # combine trials with the hand review
 ```
 
 Add `--refresh` to skip the local cache. The derived tables are written only if `catalog/sources.csv` says the source may be shared. Data from access-controlled sources is always refused.

@@ -115,7 +115,7 @@ ms-research/
 | Step | Deliverable |
 |---|---|
 | 1 ✅ | Python project setup (`pyproject.toml`, `src/`, `.gitignore` for `data/raw/`) and the ClinicalTrials.gov and PubMed fetchers. Done 2026-11-12: 102 trials and 1,740 papers fetched. |
-| 2 | Track A: complete `trials_remyelination` table and written trial review |
+| 2 ✅ | Track A: complete `trials_remyelination` table and written trial review. Done 2026-11-12: 105 trials reviewed; see [track-a-trial-review.md](track-a-trial-review.md). |
 | 3 | Open Targets, ChEMBL and Human Protein Atlas fetchers; first `targets_repair` table (Track C, literature-based) |
 | 4 | CELLxGENE/GEO single-cell analysis (Track B); feed results into target ranking |
 | 5 | Drug repurposing (Track D), first by target, then by signature with LINCS |

@@ -1,0 +1,19 @@
+{
+  "file": "trials_repair_curated.csv",
+  "created": "2026-11-12T23:49:55Z",
+  "msr_version": "0.1.0",
+  "source": "ClinicalTrials.gov",
+  "source_id": "clinicaltrials-gov",
+  "source_url": "https://clinicaltrials.gov",
+  "license": "ClinicalTrials.gov Terms and Conditions",
+  "terms_url": "https://clinicaltrials.gov/about-site/terms-conditions",
+  "query": {
+    "inputs": [
+      "data/derived/trials_remyelination.csv",
+      "data/curation/extra_trials.csv",
+      "data/curation/trial_review.csv"
+    ]
+  },
+  "rows": 105,
+  "notes": "Trial records from ClinicalTrials.gov (see trials_remyelination.csv.manifest.json for the processing date), plus hand-entered trials from other registries. Review columns (relevance to myelin repair, mechanism, targets, result) were added by hand from the cited papers."
+}

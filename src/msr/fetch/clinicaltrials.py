@@ -51,6 +51,7 @@ REPAIR_DRUGS = [
     "ifenprodil",
     "BIIB061",
     "PRO-1562",
+    "rHIgM22",
 ]
 
 # Trials that matter for myelin repair but that the searches above can't find,

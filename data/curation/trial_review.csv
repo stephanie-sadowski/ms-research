@@ -1,0 +1,106 @@
+trial_id,relevance,therapy,mechanism,targets,population,repair_outcome,primary_met,result_summary,result_pmid,notes
+NCT00000117,repair_efficacy,IVIG,Immunoglobulin; proposed to promote remyelination,,ON,Visual acuity,no,Stopped for negative results; no improvement in persistent visual loss at 6 months,11402108,Early (1990s) repair attempt in optic neuritis
+NCT00127075,other,Progestin + estradiol,Hormonal relapse prevention after pregnancy,,RMS,,,,,Relapse prevention; not a repair trial
+NCT00559702,other,Natalizumab,Immune (alpha4 integrin),ITGA4,RMS,,,,,Pharmacokinetic study
+NCT00781872,repair_secondary,Mesenchymal stem cells,Cell therapy (mainly immunomodulatory),,MS,,,,,Safety is the primary aim
+NCT00937677,repair_secondary,Natalizumab,Immune (alpha4 integrin),ITGA4,RMS,MTR,,,,Observational; measures repair with MTR
+NCT00986960,repair_secondary,ACTH + interferon beta,Melanocortin receptors,,RMS,MTR,,,,Withdrawn before enrolling
+NCT01037907,other,BGC20-0134 (structured lipid),Anti-inflammatory lipid,,RMS,,,,,Primary outcome is new inflammatory lesions
+NCT01085318,repair_secondary,Interferon beta-1a,Immune,IFNAR1; IFNAR2,RMS,Advanced MRI,,,,Imaging pilot of an immune therapy
+NCT01220830,other,Cytotron (magnetic field device),Unproven device,,MS,,,,,Not a recognised repair approach
+NCT01244139,repair_safety,Opicinumab,Blocks LINGO-1 (a brake on OPC maturation),LINGO1,MS,,,,,Phase 1
+NCT01307332,repair_secondary,Alemtuzumab,Immune (CD52),CD52,RMS,Advanced MRI,,,,
+NCT01395316,repair_secondary,Alemtuzumab,Immune (CD52),CD52,RMS,MWF,,,,
+NCT01451593,other,Phenytoin,Sodium channel blocker (neuroprotection),,ON,,,,,Protects axons rather than repairing myelin
+NCT01639300,repair_safety,Temelimab,Blocks HERV-W Env protein (thought to block OPC maturation),,MS,,,,,Phase 2 safety
+NCT01699555,repair_safety,Temelimab,Blocks HERV-W Env protein,,healthy,,,,,Phase 1 in healthy volunteers
+NCT01721161,repair_efficacy,Opicinumab,Blocks LINGO-1,LINGO1,ON,VEP latency,partial,"Primary endpoint missed in the intention-to-treat group (-3.5 ms, p=0.33); per-protocol -7.6 ms (p=0.050)",28229892,RENEW
+NCT01772199,repair_efficacy,GSK239512,Histamine H3 receptor blocker,HRH3,RMS,MTR,partial,Small positive effect on lesion MTR (effect size 0.34 in enhancing lesions); insomnia more common,27888416,
+NCT01802931,repair_safety,GSK239512,Histamine H3 receptor blocker,HRH3,healthy,,,,,Drug interaction study
+NCT01803867,repair_safety,rHIgM22,Antibody that binds oligodendrocytes and myelin,,MS,,,,,Phase 1
+NCT01804647,other,Temelimab (observational),HERV-W biomarker study,,MS,,,,,No treatment given
+NCT01804660,other,Temelimab (observational),HERV-W biomarker study,,healthy,,,,,No treatment given
+NCT01805986,imaging_method,7T MRI,Measuring grey matter lesions,,MS,7T MRI,,,,
+NCT01808885,repair_safety,Olesoxime,Mitochondrial pore modulator; promoted myelination in animal studies,,RMS,,,,,Phase 1
+NCT01864148,repair_efficacy,Opicinumab,Blocks LINGO-1,LINGO1,RMS,Clinical composite,no,No dose-response on confirmed disability improvement; best results at middle doses,31285147,SYNERGY
+NCT01918501,other,Blood testing,Mitochondria and lipid biomarkers,,MS,,,,,
+NCT02035514,repair_secondary,Mesenchymal stem cells,Cell therapy (mainly immunomodulatory),,MS,MRI,,,,
+NCT02040298,repair_efficacy,Clemastine,Blocks muscarinic M1 receptor on OPCs (also an antihistamine),CHRM1,RMS,VEP latency,yes,VEP latency delay reduced by 1.7 ms/eye (p=0.0048) in chronic optic neuropathy; fatigue,29029896,ReBUILD; first positive randomised repair trial
+NCT02087631,repair_safety,Quetiapine,Antipsychotic; promoted OPC maturation in animal studies,DRD2; HTR2A,MS,,,,,Phase 1/2 dose-finding
+NCT02308137,repair_efficacy,Domperidone,Raises prolactin (dopamine D2 blocker),DRD2,PMS,Walking,no,Futility not rejected for disability progression; higher prolactin linked to less worsening,34038379,
+NCT02398461,repair_safety,rHIgM22,Antibody that binds oligodendrocytes and myelin,,MS,,,,,Phase 1
+NCT02403947,repair_secondary,Mesenchymal stem cells,Cell therapy (mainly immunomodulatory),,MS,,,,,Terminated after 1 participant
+NCT02446886,repair_secondary,ACTH gel,Melanocortin receptors,,MS,MWF,,,,Terminated
+NCT02452996,repair_safety,Temelimab,Blocks HERV-W Env protein,,healthy,,,,,Phase 1
+NCT02493049,repair_efficacy,Domperidone,Raises prolactin (dopamine D2 blocker),DRD2,RMS,MRI texture and diffusion,no,No group difference in lesion repair on MRI; recruitment target not met,38461731,Pilot
+NCT02506751,repair_safety,Liothyronine,Thyroid hormone receptor activation drives OPC maturation,THRA; THRB,MS,,,Well tolerated over 24 weeks,37460763,Phase 1b
+NCT02521311,repair_efficacy,Clemastine,Blocks muscarinic M1 receptor,CHRM1,ON,VEP latency,pending,,,Acute optic neuritis
+NCT02521545,repair_safety,BIIB061,Oral drug to promote OPC maturation (target not disclosed),,healthy,,,,,Phase 1
+NCT02601885,repair_safety,Elezanumab,Blocks RGMa (a repulsive guidance signal),RGMA,RMS,,,,,Phase 1
+NCT02606630,repair_safety,Elezanumab,Blocks RGMa,RGMA,MS,,,,,PET study; terminated
+NCT02641041,repair_safety,Opicinumab,Blocks LINGO-1,LINGO1,healthy,,,,,Phase 1
+NCT02657915,repair_efficacy,Opicinumab,Blocks LINGO-1,LINGO1,ON,VEP latency,no,"Long-term follow-up of RENEW: -6.0 ms per-protocol (p=0.165), not significant",39662163,RENEWED
+NCT02710214,other,Bazedoxifene + estrogens,Menopause symptom treatment,,MS,,,,,Hot flashes; not a repair trial
+NCT02760056,repair_safety,Liothyronine,Thyroid hormone receptor activation,THRA; THRB,MS,,,Maximum tolerated dose 75 mcg/day; no effect over 1 week,32120028,Phase 1
+NCT02782858,repair_efficacy,Temelimab,Blocks HERV-W Env protein,,RMS,MRI (inflammatory lesions),no,Primary endpoint missed; fewer new T1-hypointense lesions and trends on atrophy and MTR,34240656,CHANGE-MS
+NCT02833142,repair_safety,Opicinumab,Blocks LINGO-1,LINGO1,healthy,,,,,Phase 1
+NCT03087136,other,Observational cohort,Paediatric demyelination,,other,,,,,
+NCT03109288,repair_efficacy,Clemastine,Blocks muscarinic M1 receptor,CHRM1,PMS,Disability progression,harm,Clemastine arm stopped: faster disability progression and more pyroptosis signalling in spinal fluid,40371642,TRAP-MS platform trial; the registry no longer lists the clemastine arm
+NCT03179423,other,Temelimab,HERV-W in type 1 diabetes,,other,,,,,Type 1 diabetes trial
+NCT03222973,repair_efficacy,Opicinumab,Blocks LINGO-1,LINGO1,RMS,Clinical composite,no,Overall response score difference 0.15 (p=0.148); larger in older and longer-disease subgroups,41454463,AFFINITY
+NCT03239860,repair_safety,Temelimab,Blocks HERV-W Env protein,,RMS,,,,,Long-term extension
+NCT03536559,repair_efficacy,CNM-Au8,Gold nanocrystals that boost cell energy,,ON,Visual function,unknown,,,VISIONARY-MS; terminated
+NCT03574428,repair_safety,Temelimab,Blocks HERV-W Env protein,,healthy,,,,,Phase 1
+NCT03600779,imaging_method,ihMT MRI,Myelin-specific MRI,,MS,ihMT,,,,
+NCT03737812,repair_efficacy,Elezanumab,Blocks RGMa,RGMA,PMS,Clinical composite,no,Primary overall response score not met,40698976,RADIUS-P
+NCT03737851,repair_efficacy,Elezanumab,Blocks RGMa,RGMA,RMS,Clinical composite,no,Primary overall response score not met,40698976,RADIUS-R
+NCT03774407,repair_secondary,Vaginal estriol,Estrogen receptors,ESR1; ESR2,MS,VEP and OCT,,,,Bladder symptoms are the main outcome
+NCT03910738,repair_efficacy,Testosterone,Androgen receptor,AR,RMS,MRI (atrophy and diffusion),pending,,,TOTEM RRMS
+NCT03993171,repair_efficacy,CNM-Au8,Gold nanocrystals that boost cell energy,,MS,Brain energy (31P-MRS),unknown,,,Mechanism study
+NCT04002934,repair_efficacy,Bazedoxifene,Selective estrogen receptor modulator; promoted OPC maturation in screens,ESR1,MS,MWF,pending,,37739167,Re-WRAP; women only
+NCT04042363,repair_efficacy,Transorbital electrical stimulation,Electrical stimulation of the optic nerve,,ON,VEP latency,unknown,,,
+NCT04079088,repair_safety,BIIB061,Oral drug to promote OPC maturation,,RMS,,,,,Withdrawn
+NCT04081714,other,CNM-Au8,Expanded access,,other,,,,,Not a trial
+NCT04121468,repair_safety,Metformin,Rejuvenates aged OPCs (AMPK activation),PRKAA1,MS,,,,,
+NCT04480307,repair_safety,Temelimab,Blocks HERV-W Env protein,,PMS,,,,,After rituximab
+NCT04532944,imaging_method,Sodium MRI,Brain energy imaging,,MS,Sodium MRI,,,,
+NCT04539002,repair_efficacy,Aerobic exercise,Activity-dependent myelination,,MS,Evoked potentials,unknown,,36596632,Protocol published; results posted on ClinicalTrials.gov
+NCT04626921,repair_efficacy,CNM-Au8,Gold nanocrystals that boost cell energy,,ON,Low-contrast letter acuity,unknown,,,Open-label extension
+NCT04725175,repair_safety,PIPE-307,Selective muscarinic M1 receptor blocker,CHRM1,healthy,,,,39083422,Phase 1
+NCT04909502,repair_safety,EHP-101,Cannabidiol derivative (PPAR-gamma and CB2),PPARG; CNR2,RMS,,,,,Suspended
+NCT04941781,repair_safety,PIPE-307,Selective muscarinic M1 receptor blocker,CHRM1,healthy,,,,,PET receptor-occupancy study
+NCT04977622,imaging_method,7T MRI,Cortical demyelination,,PMS,7T MRI,,,,
+NCT05049161,repair_safety,Temelimab,Blocks HERV-W Env protein,,PMS,,,,,Extension; terminated
+NCT05131828,repair_efficacy,Metformin + clemastine,Rejuvenates aged OPCs plus M1 receptor block,PRKAA1; CHRM1,RMS,VEP latency,pending,,41361285,CCMR-Two; completed; results not yet published
+NCT05147532,imaging_method,Myelin PET (florbetaben),Myelin PET imaging,,MS,Myelin PET,,,,
+NCT05177523,imaging_method,Advanced MRI,Axonal damage and repair,,MS,Advanced MRI,,,,Observational
+NCT05258396,imaging_method,MTR MRI,Cortical remyelination in children,,MS,MTR,,,,
+NCT05298670,other,Metformin + interferon,Immune effects (IL-17),PRKAA1,RMS,,,,,Primary outcome is an immune marker
+NCT05338450,repair_efficacy,Clemastine,Blocks muscarinic M1 receptor,CHRM1,MS,Eye movement speed (INO),unknown,,38296293,RESTORE; terminated
+NCT05349474,repair_safety,Metformin,Rejuvenates aged OPCs,PRKAA1,PMS,,,,,
+NCT05359653,repair_efficacy,Clemastine,Blocks muscarinic M1 receptor,CHRM1,MS,MWF,pending,,,
+NCT05418010,other,Natalizumab,Immune therapy before an MS diagnosis,ITGA4,other,,,,,
+NCT05532943,repair_secondary,Umbilical cord mesenchymal stem cells,Cell therapy,,MS,,,,,
+NCT05540262,other,Edaravone,Antioxidant (neuroprotection),,ON,,,,,
+NCT05633875,imaging_method,Multimodal MRI,Imaging signatures of neurodegeneration,,MS,MRI,,,,
+NCT05747040,other,Wearable devices,Pain monitoring,,other,,,,,Found by a loose drug search
+NCT05783934,imaging_method,Myelin PET (florbetaben),Myelin PET imaging,,MS,Myelin PET,,,,
+NCT05893225,repair_efficacy,Metformin,Rejuvenates aged OPCs,PRKAA1,MS,Walking speed,pending,,38680485,
+NCT05901259,other,Electrical stimulation suit,Rehabilitation database,,other,,,,,Found by a loose drug search
+NCT05902429,repair_secondary,Cladribine,Immune (lymphocyte depletion),,RMS,Myelin MRI,,,,
+NCT06065670,repair_efficacy,Clemastine,Blocks muscarinic M1 receptor,CHRM1,MS,MWF,pending,,,Acute lesions; not yet recruiting
+NCT06083753,repair_efficacy,PIPE-307,Selective muscarinic M1 receptor blocker,CHRM1,RMS,Low-contrast letter acuity,pending,,,VISTA; completed; results not yet posted
+NCT06171334,repair_secondary,Remote ischemic conditioning,Brief limb ischemia to trigger protective signalling,,PMS,Walking,,,,
+NCT06330077,repair_efficacy,Ifenprodil,NMDA receptor (GluN2B) blocker; repurposed,GRIN2B,MS,VEP latency,pending,,,Not yet recruiting
+NCT06463743,repair_safety,Metformin,Rejuvenates aged OPCs,PRKAA1,MS,,,,,Older people with MS
+NCT06641271,repair_safety,Vagus nerve stimulation + motor task,Activity-dependent myelination,,MS,,,,,
+NCT06683612,repair_safety,PIPE-791,LPA1 receptor blocker,LPAR1,PMS,,,,,PET receptor-occupancy study
+NCT06796504,repair_safety,SetPoint vagus nerve stimulation implant,Activity-dependent myelination,,RMS,,,,,
+NCT06812585,other,Metformin,Immune effects; NfL as outcome,PRKAA1,MS,,,,,
+NCT07096700,other,VR and orthoses,Gait rehabilitation,,other,,,,,Found by a loose drug search
+NCT07222618,other,Video selfies,Measuring disability,,MS,,,,,
+NCT07502066,other,Telerehabilitation,Balance rehabilitation,,other,,,,,Found by a loose drug search
+NCT07645703,other,Observational cohort,General MS cohort,,MS,,,,,
+NCT07723599,imaging_method,Quantitative MRI,Age-related myelination failure,,MS,Myelin MRI,,,,Observational
+NCT07826689,repair_efficacy,PRO-1562,Oral drug to promote myelin repair (target not disclosed),,RMS,Not stated,pending,,,Phase 1/2a
+ISRCTN14265371,repair_efficacy,Bexarotene,Activates RXR-gamma to drive OPC maturation,RXRG,RMS,MTR,partial,"Primary MTR outcome missed; VEP latency improved, lasting at 27 months; poorly tolerated (hypothyroidism, high triglycerides)",34418398; 38426437,CCMR-One; not on ClinicalTrials.gov

@@ -1,6 +1,6 @@
 {
   "file": "trials_remyelination.csv",
-  "created": "2026-11-12T23:26:12Z",
+  "created": "2026-11-12T23:48:06Z",
   "msr_version": "0.1.0",
   "source": "ClinicalTrials.gov",
   "source_id": "clinicaltrials-gov",
@@ -25,12 +25,13 @@
       "bazedoxifene",
       "ifenprodil",
       "BIIB061",
-      "PRO-1562"
+      "PRO-1562",
+      "rHIgM22"
     ],
     "extra_trials": {
       "NCT03109288": "TRAP-MS platform trial. Its clemastine arm was stopped for faster disability progression (PMID 40371642), but the registry no longer lists clemastine."
     }
   },
-  "rows": 102,
-  "notes": "Data from ClinicalTrials.gov, processed 2026-11-12T23:26:12Z. Modified: selected fields flattened to one row per study; lists joined with '; '; matched_by added to show which search found each study. Rows found only by a drug search may not be about myelin repair and need review."
+  "rows": 104,
+  "notes": "Data from ClinicalTrials.gov, processed 2026-11-12T23:48:05Z. Modified: selected fields flattened to one row per study; lists joined with '; '; matched_by added to show which search found each study. Rows found only by a drug search may not be about myelin repair and need review."
 }
