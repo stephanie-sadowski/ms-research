@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID>11111111</PMID>
+      <Article>
+        <Journal>
+          <JournalIssue><PubDate><Year>2017</Year><Month>Dec</Month></PubDate></JournalIssue>
+          <Title>The Example Journal</Title>
+          <ISOAbbreviation>Ex J</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>A trial of <i>remyelination</i> in MS.</ArticleTitle>
+        <Abstract><AbstractText>Copyrighted abstract text.</AbstractText></Abstract>
+        <PublicationTypeList>
+          <PublicationType>Journal Article</PublicationType>
+          <PublicationType>Randomized Controlled Trial</PublicationType>
+        </PublicationTypeList>
+      </Article>
+      <MeshHeadingList>
+        <MeshHeading><DescriptorName>Multiple Sclerosis</DescriptorName></MeshHeading>
+        <MeshHeading><DescriptorName>Remyelination</DescriptorName></MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">11111111</ArticleId>
+        <ArticleId IdType="doi">10.1000/example.1</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID>22222222</PMID>
+      <Article>
+        <Journal>
+          <JournalIssue><PubDate><MedlineDate>2019 Nov-Dec</MedlineDate></PubDate></JournalIssue>
+          <Title>Another Journal</Title>
+        </Journal>
+        <ArticleTitle>Second paper</ArticleTitle>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>

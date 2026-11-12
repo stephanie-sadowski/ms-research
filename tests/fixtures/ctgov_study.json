@@ -1,0 +1,25 @@
+{
+  "protocolSection": {
+    "identificationModule": {"nctId": "NCT00000001", "briefTitle": "Example remyelination trial"},
+    "statusModule": {
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Safety stopping criteria met",
+      "startDateStruct": {"date": "2020-01"},
+      "completionDateStruct": {"date": "2022-06-30"},
+      "lastUpdatePostDateStruct": {"date": "2023-01-15"}
+    },
+    "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example University"}},
+    "conditionsModule": {"conditions": ["Multiple Sclerosis", "Optic Neuritis"]},
+    "designModule": {"studyType": "INTERVENTIONAL", "phases": ["PHASE1", "PHASE2"], "enrollmentInfo": {"count": 50}},
+    "armsInterventionsModule": {
+      "interventions": [
+        {"type": "DRUG", "name": "Clemastine"},
+        {"type": "DRUG", "name": "Placebo"},
+        {"type": "DIAGNOSTIC_TEST", "name": "MRI"}
+      ]
+    },
+    "outcomesModule": {"primaryOutcomes": [{"measure": "VEP P100 latency"}]},
+    "referencesModule": {"references": [{"pmid": "29029896"}, {"citation": "No PMID here"}]}
+  },
+  "hasResults": true
+}

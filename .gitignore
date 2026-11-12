@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data: raw downloads are never committed.
+# Only small derived tables whose source license allows it go in data/derived/.
+data/raw/

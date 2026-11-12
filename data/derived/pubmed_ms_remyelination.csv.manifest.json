@@ -1,0 +1,17 @@
+{
+  "file": "pubmed_ms_remyelination.csv",
+  "created": "2026-11-12T23:25:47Z",
+  "msr_version": "0.1.0",
+  "source": "PubMed",
+  "source_id": "pubmed",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov",
+  "license": "NLM policies; abstracts are copyrighted by publishers",
+  "terms_url": "https://www.nlm.nih.gov/web_policies.html",
+  "query": {
+    "api": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "term": "\"multiple sclerosis\"[MeSH] AND (remyelination[MeSH] OR remyelination[tiab])",
+    "total_matches": 1740
+  },
+  "rows": 1740,
+  "notes": "Citation details only; abstracts are left out because publishers hold their copyright."
+}

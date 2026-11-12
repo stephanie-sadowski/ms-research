@@ -10,7 +10,7 @@ The catalog **describes** sources. It doesn't re-host them. For each source it r
 |---|---|
 | `id` | Short unique slug, for example `gwas-catalog` |
 | `name` | Name of the source |
-| `category` | `trials`, `literature`, `epidemiology`, `genetics`, `omics`, `imaging`, `registry`, `cohort`, `drug-info`, `catalog` |
+| `category` | `trials`, `literature`, `epidemiology`, `genetics`, `omics`, `imaging`, `registry`, `cohort`, `drug-info`, `targets`, `catalog` |
 | `url` | Main landing page |
 | `access` | `open` (anyone can use it), `registration` (free account needed) or `controlled` (application or data use agreement) |
 | `data_level` | `aggregate` (summary figures), `individual` (one row per person or sample), `metadata` (descriptions or citations only) or `mixed` |
@@ -31,6 +31,10 @@ The catalog **describes** sources. It doesn't re-host them. For each source it r
 
 ## Status
 
-On 2026-11-12, 11 of the 15 entries were checked against their official sites or terms pages and have a `verified` date. The other 4 still need confirming: `imsgc` (how to access its data), `ms-data-alliance` (access), `narcoms` (how to request data) and `dailymed` (copyright of label text).
+On 2026-11-12, 11 of the first 15 entries were checked against their official sites or terms pages and have a `verified` date. The other 4 still need confirming: `imsgc` (how to access its data), `ms-data-alliance` (access), `narcoms` (how to request data) and `dailymed` (copyright of label text).
+
+Six sources for myelin-repair research were added the same day: `open-targets`, `chembl`, `cellxgene`, `lincs-l1000`, `europe-pmc` and `human-protein-atlas`. Only Open Targets' license has been confirmed from its own documentation. The others are based on secondary sources and need checking.
+
+What each public source contains, and how much, is described in [docs/public-data-inventory.md](../docs/public-data-inventory.md).
 
 These notes summarize each source's terms. They aren't legal advice. Before copying data into this repo, read the page in `terms_url`.

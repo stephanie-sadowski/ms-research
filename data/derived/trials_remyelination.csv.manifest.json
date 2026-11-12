@@ -1,0 +1,36 @@
+{
+  "file": "trials_remyelination.csv",
+  "created": "2026-11-12T23:26:12Z",
+  "msr_version": "0.1.0",
+  "source": "ClinicalTrials.gov",
+  "source_id": "clinicaltrials-gov",
+  "source_url": "https://clinicaltrials.gov",
+  "license": "ClinicalTrials.gov Terms and Conditions",
+  "terms_url": "https://clinicaltrials.gov/about-site/terms-conditions",
+  "query": {
+    "api": "https://clinicaltrials.gov/api/v2/studies",
+    "conditions": "multiple sclerosis OR optic neuritis",
+    "terms": "remyelination OR remyelinating OR \"myelin repair\"",
+    "drugs": [
+      "clemastine",
+      "opicinumab",
+      "elezanumab",
+      "bexarotene",
+      "PIPE-307",
+      "temelimab",
+      "CNM-Au8",
+      "GSK239512",
+      "liothyronine",
+      "metformin",
+      "bazedoxifene",
+      "ifenprodil",
+      "BIIB061",
+      "PRO-1562"
+    ],
+    "extra_trials": {
+      "NCT03109288": "TRAP-MS platform trial. Its clemastine arm was stopped for faster disability progression (PMID 40371642), but the registry no longer lists clemastine."
+    }
+  },
+  "rows": 102,
+  "notes": "Data from ClinicalTrials.gov, processed 2026-11-12T23:26:12Z. Modified: selected fields flattened to one row per study; lists joined with '; '; matched_by added to show which search found each study. Rows found only by a drug search may not be about myelin repair and need review."
+}
