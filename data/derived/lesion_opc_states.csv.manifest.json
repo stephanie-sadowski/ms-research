@@ -1,0 +1,21 @@
+{
+  "file": "lesion_opc_states.csv",
+  "created": "2026-11-13T00:22:12Z",
+  "msr_version": "0.1.0",
+  "source": "GEO GSE279180 (Lerma-Martin et al. 2024, MS lesion snRNA-seq)",
+  "source_id": "geo-gse279180",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279180",
+  "license": "GEO: no NCBI restrictions; submitter terms not stated",
+  "terms_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "query": {
+    "lerma": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279180/suppl/GSE279180_ctype_OPC.h5ad",
+    "maturing_states": [
+      "OPC_COP",
+      "OPC_Mature",
+      "OPC_PreOL"
+    ],
+    "min_cells": 30
+  },
+  "rows": 3,
+  "notes": "Share of OPCs in maturing states (COP, PreOL, Mature) by lesion type, Lerma-Martin et al. 2024. mean/min/max are across people; state columns are pooled cell shares. Group summaries only."
+}

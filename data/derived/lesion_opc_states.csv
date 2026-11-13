@@ -1,0 +1,4 @@
+lesion_type,people,opcs,mean_share_maturing,p_vs_control,OPC_COP,OPC_Dis1,OPC_Dis2,OPC_Homeo,OPC_Mature,OPC_PreOL,OPC_PreOPC,OPC_Stress
+CA,4,1978,0.105,0.0422,0.068,0.08,0.398,0.279,0.019,0.038,0.059,0.058
+CI,2,712,0.118,0.1313,0.008,0.105,0.338,0.372,0.007,0.14,0.006,0.022
+Ctrl,6,1255,0.015,nan,0.002,0.032,0.089,0.854,0.001,0.018,0.0,0.004

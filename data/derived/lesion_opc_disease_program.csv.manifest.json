@@ -1,0 +1,24 @@
+{
+  "file": "lesion_opc_disease_program.csv",
+  "created": "2026-11-13T00:22:12Z",
+  "msr_version": "0.1.0",
+  "source": "GEO GSE279180 (Lerma-Martin et al. 2024, MS lesion snRNA-seq)",
+  "source_id": "geo-gse279180",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279180",
+  "license": "GEO: no NCBI restrictions; submitter terms not stated",
+  "terms_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "query": {
+    "lerma": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279180/suppl/GSE279180_ctype_OPC.h5ad",
+    "disease_states": [
+      "OPC_Dis1",
+      "OPC_Dis2"
+    ],
+    "resting_states": [
+      "OPC_Homeo"
+    ],
+    "min_cells_per_state": 20,
+    "min_cpm": 10.0
+  },
+  "rows": 9463,
+  "notes": "Within people with MS: disease-associated OPC states (Dis1, Dis2, as labelled by the authors) vs resting OPCs, pseudobulk per person and state, paired t-test on log2(CPM+1), BH FDR. Lerma-Martin et al. 2024 (PMID 39501036). Summary statistics only."
+}

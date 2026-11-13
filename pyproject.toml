@@ -15,6 +15,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=7"]
+analysis = ["anndata>=0.10", "numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "h5py>=3.9"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

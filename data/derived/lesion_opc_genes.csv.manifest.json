@@ -1,0 +1,30 @@
+{
+  "file": "lesion_opc_genes.csv",
+  "created": "2026-11-13T00:22:10Z",
+  "msr_version": "0.1.0",
+  "sources": [
+    {
+      "id": "geo-gse279180",
+      "name": "GEO GSE279180 (Lerma-Martin et al. 2024, MS lesion snRNA-seq)",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279180",
+      "license": "GEO: no NCBI restrictions; submitter terms not stated",
+      "terms_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html"
+    },
+    {
+      "id": "cellxgene",
+      "name": "CELLxGENE Discover",
+      "url": "https://cellxgene.cziscience.com",
+      "license": "CC BY 4.0 (all public CELLxGENE data)",
+      "terms_url": "https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data"
+    }
+  ],
+  "query": {
+    "lerma": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279180/suppl/GSE279180_ctype_OPC.h5ad",
+    "jakel": "https://datasets.cellxgene.cziscience.com/8bbea7c5-c742-4c27-a597-0f1e1383bb48.h5ad",
+    "min_cells": 30,
+    "min_cells_jakel": 10,
+    "min_cpm": 10.0
+  },
+  "rows": 9689,
+  "notes": "OPC gene expression, MS vs control white matter. Person-level pseudobulk, Welch t-test on log2(CPM+1), Benjamini-Hochberg FDR. log2fc > 0 means higher in MS. Main study: Lerma-Martin et al. 2024 (PMID 39501036, GEO GSE279180). Replication: J\u00e4kel et al. 2019 (PMID 30747918, CELLxGENE, CC BY 4.0). Summary statistics only; no cell- or person-level data."
+}
