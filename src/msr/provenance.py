@@ -58,30 +58,37 @@ def write_derived_csv(
     rows: Iterable[dict[str, Any]],
     columns: list[str],
     *,
-    source_id: str,
+    source_id: str | list[str],
     query: dict[str, Any],
     notes: str = "",
 ) -> Path:
     """Write a shareable table to data/derived/ with its manifest.
 
-    Refuses to write if the catalog says the source can't be shared.
+    `source_id` can be one catalog ID or a list of them for tables that combine
+    sources. Refuses to write if the catalog says any source can't be shared.
     """
-    entry = check_shareable(source_id)
+    source_ids = [source_id] if isinstance(source_id, str) else list(source_id)
+    entries = [check_shareable(s) for s in source_ids]
     path = derived_dir() / name
     rows = list(rows)
     with open(path, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=columns, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
-    write_manifest(
-        path,
-        source=entry["name"],
-        source_id=source_id,
-        source_url=entry["url"],
-        license=entry["license"],
-        terms_url=entry["terms_url"],
-        query=query,
-        rows=len(rows),
-        notes=notes,
-    )
+    if len(entries) == 1:
+        entry = entries[0]
+        sources: dict[str, Any] = {
+            "source": entry["name"],
+            "source_id": entry["id"],
+            "source_url": entry["url"],
+            "license": entry["license"],
+            "terms_url": entry["terms_url"],
+        }
+    else:
+        sources = {
+            "sources": [
+                {k: e[k] for k in ("id", "name", "url", "license", "terms_url")} for e in entries
+            ]
+        }
+    write_manifest(path, **sources, query=query, rows=len(rows), notes=notes)
     return path

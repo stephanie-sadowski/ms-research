@@ -55,6 +55,17 @@ def search_ids(term: str, use_cache: bool = True) -> tuple[list[str], int]:
     return result["idlist"], int(result["count"])
 
 
+def search_all_ids(term: str, use_cache: bool = True, first_year: int = 1900, last_year: int = 2100) -> list[str]:
+    """Return every PMID for a query, splitting by publication year when there are too many."""
+    ids, total = search_ids(f"({term}) AND {first_year}:{last_year}[dp]", use_cache=use_cache)
+    if total <= MAX_IDS:
+        return ids
+    if first_year == last_year:
+        raise RuntimeError(f"More than {MAX_IDS} papers in {first_year}; narrow the query")
+    middle = (first_year + last_year) // 2
+    return search_all_ids(term, use_cache, first_year, middle) + search_all_ids(term, use_cache, middle + 1, last_year)
+
+
 def fetch_xml(pmids: list[str], use_cache: bool = True) -> Iterator[str]:
     """Yield PubMed XML for the given PMIDs, BATCH at a time."""
     for start in range(0, len(pmids), BATCH):

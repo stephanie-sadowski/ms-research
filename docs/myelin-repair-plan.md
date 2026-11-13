@@ -116,7 +116,7 @@ ms-research/
 |---|---|
 | 1 ✅ | Python project setup (`pyproject.toml`, `src/`, `.gitignore` for `data/raw/`) and the ClinicalTrials.gov and PubMed fetchers. Done 2026-11-12: 102 trials and 1,740 papers fetched. |
 | 2 ✅ | Track A: complete `trials_remyelination` table and written trial review. Done 2026-11-12: 105 trials reviewed; see [track-a-trial-review.md](track-a-trial-review.md). |
-| 3 | Open Targets, ChEMBL and Human Protein Atlas fetchers; first `targets_repair` table (Track C, literature-based) |
+| 3 ✅ | Open Targets, ChEMBL and Human Protein Atlas fetchers; first `targets_repair` table (Track C, literature-based). Done 2026-11-12: 1,229 genes ranked, but the known-answer check failed; see [track-c-target-ranking-v1.md](track-c-target-ranking-v1.md) for why and what version 2 needs. |
 | 4 | CELLxGENE/GEO single-cell analysis (Track B); feed results into target ranking |
 | 5 | Drug repurposing (Track D), first by target, then by signature with LINCS |
 | 6 | Write-up of the ranked targets and drugs, with evidence, caveats and open questions |

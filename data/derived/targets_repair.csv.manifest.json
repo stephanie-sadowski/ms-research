@@ -1,0 +1,54 @@
+{
+  "file": "targets_repair.csv",
+  "created": "2026-11-13T00:10:36Z",
+  "msr_version": "0.1.0",
+  "sources": [
+    {
+      "id": "human-protein-atlas",
+      "name": "Human Protein Atlas",
+      "url": "https://www.proteinatlas.org",
+      "license": "CC BY 4.0",
+      "terms_url": "https://www.proteinatlas.org/about/licence"
+    },
+    {
+      "id": "open-targets",
+      "name": "Open Targets Platform",
+      "url": "https://platform.opentargets.org",
+      "license": "CC0 1.0 (data from sources like ChEMBL keeps its own license)",
+      "terms_url": "https://platform-docs.opentargets.org/licence"
+    },
+    {
+      "id": "pubtator",
+      "name": "PubTator3 (NCBI)",
+      "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3/",
+      "license": "NLM policies (US government work)",
+      "terms_url": "https://www.nlm.nih.gov/web_policies.html"
+    },
+    {
+      "id": "chembl",
+      "name": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/",
+      "license": "CC BY-SA 3.0",
+      "terms_url": "https://platform-docs.opentargets.org/licence"
+    }
+  ],
+  "query": {
+    "repair_corpus": "remyelination[tiab] OR \"oligodendrocyte differentiation\"[tiab] OR \"oligodendrocyte precursor\"[tiab] OR \"oligodendrocyte progenitor\"[tiab] OR \"myelin repair\"[tiab]",
+    "weights": {
+      "literature": 0.4,
+      "expression": 0.3,
+      "druggability": 0.3
+    },
+    "candidate_rules": {
+      "min_papers": 3,
+      "min_lineage_ncpm": 20.0,
+      "min_specificity": 2.0
+    },
+    "hpa_files": [
+      "https://www.proteinatlas.org/download/proteinatlas.tsv.zip",
+      "https://www.proteinatlas.org/download/tsv/rna_single_nuclei_cluster_type.tsv.zip"
+    ]
+  },
+  "rows": 1229,
+  "notes": "First-pass ranking of possible myelin-repair targets. Scores are percentiles within the candidate genes. Human trial evidence is shown for checking only and is not part of the score. Drug lists come from Open Targets, which takes them from ChEMBL (CC BY-SA 3.0), so this table is shared under CC BY-SA 3.0. Expression data: Human Protein Atlas v26.0 (proteinatlas.org), CC BY 4.0."
+}

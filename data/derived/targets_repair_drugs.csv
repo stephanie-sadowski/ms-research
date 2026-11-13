@@ -1,0 +1,253 @@
+rank,gene,drug,chembl_id,action_type,mechanism,max_phase
+1,PDGFRA,AMUVATINIB,CHEMBL2103851,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor,2.0
+1,PDGFRA,OLARATUMAB,CHEMBL1743049,ANTAGONIST,Platelet-derived growth factor receptor alpha antagonist,4.0
+1,PDGFRA,TOVETUMAB,CHEMBL2364651,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor,2.0
+1,PDGFRA,AVAPRITINIB,CHEMBL4204794,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor,4.0
+1,PDGFRA,RIPRETINIB,CHEMBL4216467,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor,4.0
+1,PDGFRA,SUNITINIB,CHEMBL535,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor,4.0
+2,MAG,REFANEZUMAB,CHEMBL3545317,INHIBITOR,Myelin-associated glycoprotein inhibitor,2.0
+3,RTN4,OZANEZUMAB,CHEMBL2108679,INHIBITOR,Reticulon-4 inhibitor,2.0
+3,RTN4,ATINUMAB,CHEMBL1742987,INHIBITOR,Reticulon-4 inhibitor,2.0
+4,NTRK2,AZD-7451,CHEMBL3659497,INHIBITOR,Neurotrophic tyrosine kinase receptor type 2 inhibitor,1.0
+4,NTRK2,PLX-7486,CHEMBL3545381,INHIBITOR,Neurotrophic tyrosine kinase receptor type 2 inhibitor,1.0
+4,NTRK2,LESTAURTINIB,CHEMBL603469,INHIBITOR,Neurotrophic tyrosine kinase receptor type 2 inhibitor,3.0
+4,NTRK2,REPOTRECTINIB,CHEMBL4298138,INHIBITOR,Neurotrophic tyrosine kinase receptor type 2 inhibitor,4.0
+5,S1PR5,ETRASIMOD ARGININE,CHEMBL3989933,MODULATOR,Sphingosine 1-phosphate receptor Edg-8 modulator,4.0
+5,S1PR5,OZANIMOD,CHEMBL3707247,MODULATOR,Sphingosine 1-phosphate receptor 5 modulator,4.0
+6,APP,GANTENERUMAB,CHEMBL1743025,BINDING AGENT,Amyloid-beta A4 protein binding agent,3.0
+6,APP,SOLANEZUMAB,CHEMBL1743072,BINDING AGENT,Amyloid-beta A4 protein binding agent,3.0
+6,APP,BAPINEUZUMAB,CHEMBL2108576,BINDING AGENT,Amyloid-beta A4 protein binding agent,3.0
+6,APP,ADUCANUMAB,CHEMBL3039540,BINDING AGENT,Amyloid-beta A4 protein binding agent,4.0
+6,APP,CRENEZUMAB,CHEMBL1743004,INHIBITOR,Amyloid-beta A4 protein inhibitor,3.0
+6,APP,PONEZUMAB,CHEMBL1743058,BINDING AGENT,Amyloid-beta A4 protein binding agent,2.0
+6,APP,GSK933776,CHEMBL2109300,BINDING AGENT,Amyloid-beta A4 protein binding agent,2.0
+6,APP,LECANEMAB,CHEMBL3833321,INHIBITOR,Amyloid-beta A4 protein inhibitor,4.0
+6,APP,TRAMIPROSATE,CHEMBL149082,STABILISER,Amyloid-beta A4 protein stabiliser,3.0
+6,APP,DONANEMAB,CHEMBL4297245,DISRUPTING AGENT,Amyloid-beta A4 protein disrupting agent,4.0
+6,APP,VANUTIDE CRIDIFICAR,CHEMBL2108058,VACCINE ANTIGEN,Amyloid-beta A4 protein vaccine antigen,2.0
+6,APP,AMILOMOTIDE,CHEMBL2108328,VACCINE ANTIGEN,Amyloid-beta A4 protein vaccine antigen,2.0
+6,APP,VALILTRAMIPROSATE,CHEMBL4650301,STABILISER,Amyloid-beta A4 protein stabiliser,3.0
+7,ERBB4,AFATINIB DIMALEATE,CHEMBL2105712,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,4.0
+7,ERBB4,AC-480,CHEMBL1645462,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,1.0
+7,ERBB4,JNJ-26483327,CHEMBL3109738,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,1.0
+7,ERBB4,BMS-690514,CHEMBL3545396,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,2.0
+7,ERBB4,CANERTINIB DIHYDROCHLORIDE,CHEMBL545315,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,3.0
+7,ERBB4,DACOMITINIB,CHEMBL2105719,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,4.0
+7,ERBB4,DACOMITINIB ANHYDROUS,CHEMBL2110732,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,4.0
+7,ERBB4,NERATINIB,CHEMBL180022,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,4.0
+7,ERBB4,NERATINIB MALEATE,CHEMBL3989921,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor,4.0
+8,GRIA2,TALAMPANEL,CHEMBL61872,ANTAGONIST,"Glutamate receptor ionotropic, AMPA 2 antagonist",2.0
+10,FGFR1,PAZOPANIB HYDROCHLORIDE,CHEMBL1201733,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,4.0
+10,FGFR1,REGORAFENIB,CHEMBL1946170,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,4.0
+10,FGFR1,SURUFATINIB,CHEMBL4297190,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,3.0
+10,FGFR1,PD-0166285 HYDROCHLORIDE,CHEMBL3545196,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,1.0
+10,FGFR1,RG-1530,CHEMBL1980391,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,1.0
+10,FGFR1,LUCITANIB,CHEMBL2220486,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,2.0
+10,FGFR1,TG100-801,CHEMBL403989,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,2.0
+10,FGFR1,PEMIGATINIB,CHEMBL4297522,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,4.0
+10,FGFR1,E-7090,CHEMBL3686884,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,2.0
+10,FGFR1,FGFR INHIBITOR DEBIO 1347,CHEMBL3907479,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,2.0
+10,FGFR1,HMPL-453,CHEMBL4650297,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor,2.0
+12,GSK3B,LY-2090314,CHEMBL362558,INHIBITOR,Glycogen synthase kinase-3 beta inhibitor,2.0
+12,GSK3B,TIDEGLUSIB,CHEMBL3545157,INHIBITOR,Glycogen synthase kinase-3 beta inhibitor,2.0
+12,GSK3B,ELRAGLUSIB,CHEMBL483465,INHIBITOR,Glycogen synthase kinase-3 beta inhibitor,2.0
+13,CA2,BRINZOLAMIDE,CHEMBL220491,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,DORZOLAMIDE HYDROCHLORIDE,CHEMBL1201162,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,DICHLORPHENAMIDE,CHEMBL17,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,METHAZOLAMIDE,CHEMBL19,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,TOPIRAMATE,CHEMBL220492,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,ACETAZOLAMIDE,CHEMBL20,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,ACETAZOLAMIDE SODIUM,CHEMBL1200814,INHIBITOR,Carbonic anhydrase II inhibitor,4.0
+13,CA2,POLMACOXIB,CHEMBL166863,INHIBITOR,Carbonic anhydrase II inhibitor,3.0
+15,NTRK3,AZD-7451,CHEMBL3659497,INHIBITOR,NT-3 growth factor receptor inhibitor,1.0
+15,NTRK3,PLX-7486,CHEMBL3545381,INHIBITOR,NT-3 growth factor receptor inhibitor,1.0
+15,NTRK3,LESTAURTINIB,CHEMBL603469,INHIBITOR,NT-3 growth factor receptor inhibitor,3.0
+15,NTRK3,REPOTRECTINIB,CHEMBL4298138,INHIBITOR,NT-3 growth factor receptor inhibitor,4.0
+18,LINGO1,OPICINUMAB,CHEMBL3544922,INHIBITOR,Leucine-rich repeat and immunoglobulin-like domain-containing nogo receptor-interacting protein 1 inhibitor,2.0
+19,HDAC2,VORINOSTAT,CHEMBL98,INHIBITOR,Histone deacetylase 2 inhibitor,4.0
+19,HDAC2,MOCETINOSTAT,CHEMBL272980,INHIBITOR,Histone deacetylase 2 inhibitor,2.0
+20,NFE2L2,OMAVELOXOLONE,CHEMBL4303525,ACTIVATOR,Nuclear factor erythroid 2-related factor 2 activator,4.0
+21,ERBB3,SAPITINIB,CHEMBL2408045,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,PATRITUMAB,CHEMBL2109406,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,3.0
+21,ERBB3,SERIBANTUMAB,CHEMBL3545071,ANTAGONIST,Receptor tyrosine-protein kinase erbB-3 antagonist,2.0
+21,ERBB3,AMG-888,CHEMBL2109396,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,DULIGOTUZUMAB,CHEMBL3137345,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,SERIBANTUMAB,CHEMBL3545071,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,LUMRETUZUMAB,CHEMBL3707404,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,AV-203,CHEMBL2109401,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,1.0
+21,ERBB3,ELGEMTUMAB,CHEMBL4298013,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,ISTIRATUMAB,CHEMBL3989990,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,CDX-3379,CHEMBL4650292,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor,2.0
+21,ERBB3,PATRITUMAB DERUXTECAN,CHEMBL4594611,BINDING AGENT,Receptor tyrosine-protein kinase erbB-3 binding agent,3.0
+22,LPAR1,BMS-986020,CHEMBL4297270,ANTAGONIST,Lysophosphatidic acid receptor Edg-2 antagonist,2.0
+23,NGF,FULRANUMAB,CHEMBL1743023,INHIBITOR,Beta-nerve growth factor inhibitor,3.0
+23,NGF,TANEZUMAB,CHEMBL2108567,INHIBITOR,Beta-nerve growth factor inhibitor,3.0
+23,NGF,FASINUMAB,CHEMBL2109528,INHIBITOR,Beta-nerve growth factor inhibitor,3.0
+23,NGF,PG-110,CHEMBL2109526,INHIBITOR,Beta-nerve growth factor inhibitor,1.0
+23,NGF,MEDI-578,CHEMBL2109527,INHIBITOR,Beta-nerve growth factor inhibitor,1.0
+26,IDH1,IVOSIDENIB,CHEMBL3989958,INHIBITOR,Isocitrate dehydrogenase [NADP] cytoplasmic inhibitor,4.0
+26,IDH1,OLUTASIDENIB,CHEMBL4297610,INHIBITOR,Isocitrate dehydrogenase [NADP] cytoplasmic inhibitor,4.0
+26,IDH1,BAY1436032,CHEMBL4206033,INHIBITOR,Isocitrate dehydrogenase [NADP] cytoplasmic inhibitor,1.0
+26,IDH1,DS-1001B,CHEMBL4650282,INHIBITOR,Isocitrate dehydrogenase [NADP] cytoplasmic inhibitor,2.0
+26,IDH1,IDH305,CHEMBL4167360,INHIBITOR,Isocitrate dehydrogenase [NADP] cytoplasmic inhibitor,2.0
+26,IDH1,VORASIDENIB CITRATE,CHEMBL4594378,INHIBITOR,Isocitrate dehydrogenase [NADP] cytoplasmic inhibitor,1.0
+27,ROCK2,BELUMOSUDIL,CHEMBL2005186,INHIBITOR,Rho-associated protein kinase 2 inhibitor,4.0
+28,FYN,JNJ-26483327,CHEMBL3109738,INHIBITOR,Tyrosine-protein kinase FYN inhibitor,1.0
+29,FGFR2,PALIFERMIN,CHEMBL1201821,AGONIST,Fibroblast growth factor receptor 2 agonist,4.0
+29,FGFR2,REGORAFENIB,CHEMBL1946170,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,4.0
+29,FGFR2,RG-1530,CHEMBL1980391,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,1.0
+29,FGFR2,LUCITANIB,CHEMBL2220486,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,2.0
+29,FGFR2,TG100-801,CHEMBL403989,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,2.0
+29,FGFR2,TRAFERMIN,CHEMBL2108081,AGONIST,Fibroblast growth factor receptor 2 agonist,4.0
+29,FGFR2,PEMIGATINIB,CHEMBL4297522,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,4.0
+29,FGFR2,APRUTUMAB IXADOTIN,CHEMBL4650293,BINDING AGENT,Fibroblast growth factor receptor 2 binding agent,1.0
+29,FGFR2,E-7090,CHEMBL3686884,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,2.0
+29,FGFR2,FGFR INHIBITOR DEBIO 1347,CHEMBL3907479,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,2.0
+29,FGFR2,HMPL-453,CHEMBL4650297,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,2.0
+29,FGFR2,BEMARITUZUMAB,CHEMBL4802165,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor,3.0
+32,IGF1R,MECASERMIN RINFABATE,CHEMBL1201717,AGONIST,Insulin-like growth factor I receptor agonist,4.0
+32,IGF1R,MECASERMIN,CHEMBL1201716,AGONIST,Insulin-like growth factor I receptor agonist,4.0
+32,IGF1R,AEW-541,CHEMBL551064,INHIBITOR,Insulin-like growth factor I receptor inhibitor,1.0
+32,IGF1R,PL-225B,CHEMBL3545004,INHIBITOR,Insulin-like growth factor I receptor inhibitor,1.0
+32,IGF1R,XL-228,CHEMBL3545085,INHIBITOR,Insulin-like growth factor I receptor inhibitor,1.0
+32,IGF1R,AXL-1717,CHEMBL283120,INHIBITOR,Insulin-like growth factor I receptor inhibitor,2.0
+32,IGF1R,BMS-754807,CHEMBL575448,INHIBITOR,Insulin-like growth factor I receptor inhibitor,2.0
+32,IGF1R,MASOPROCOL,CHEMBL313972,INHIBITOR,Insulin-like growth factor I receptor inhibitor,4.0
+32,IGF1R,KW-2450,CHEMBL5283463,INHIBITOR,Insulin-like growth factor I receptor inhibitor,2.0
+32,IGF1R,LINSITINIB,CHEMBL1091644,INHIBITOR,Insulin-like growth factor I receptor inhibitor,3.0
+32,IGF1R,FIGITUMUMAB,CHEMBL1743019,ANTAGONIST,Insulin-like growth factor I receptor antagonist,3.0
+32,IGF1R,GANITUMAB,CHEMBL1743024,ANTAGONIST,Insulin-like growth factor I receptor antagonist,3.0
+32,IGF1R,TEPROTUMUMAB,CHEMBL1743079,ANTAGONIST,Insulin-like growth factor I receptor antagonist,4.0
+32,IGF1R,CIXUTUMUMAB,CHEMBL1743001,ANTAGONIST,Insulin-like growth factor I receptor antagonist,2.0
+32,IGF1R,DALOTUZUMAB,CHEMBL1743006,ANTAGONIST,Insulin-like growth factor I receptor antagonist,2.0
+32,IGF1R,ROBATUMUMAB,CHEMBL1743064,ANTAGONIST,Insulin-like growth factor I receptor antagonist,2.0
+32,IGF1R,VELIGROTUG,CHEMBL2109357,ANTAGONIST,Insulin-like growth factor I receptor antagonist,2.0
+32,IGF1R,BIIB-022,CHEMBL2109356,INHIBITOR,Insulin-like growth factor I receptor inhibitor,1.0
+32,IGF1R,ISTIRATUMAB,CHEMBL3989990,INHIBITOR,Insulin-like growth factor I receptor inhibitor,2.0
+32,IGF1R,CONTELTINIB,CHEMBL3899477,INHIBITOR,Insulin-like growth factor I receptor inhibitor,1.0
+33,MTOR,SAPANISERTIB,CHEMBL3545097,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,AZD-8055,CHEMBL1801204,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,CC-115,CHEMBL3586573,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,DS-3078A,CHEMBL3544963,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,DS-7423,CHEMBL3545248,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,OMIPALISIB,CHEMBL1236962,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,PANULISIB,CHEMBL5095025,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,PALOMID-529,CHEMBL2141712,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,PKI-179,CHEMBL1258517,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,PWT-33579,CHEMBL3545323,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,PWT-33587,CHEMBL3545006,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,RG-7603,CHEMBL2331680,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,SF-1126,CHEMBL2326966,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,VS-5584,CHEMBL3393066,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,1.0
+33,MTOR,DACTOLISIB,CHEMBL1879463,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,3.0
+33,MTOR,BGT-226,CHEMBL3545096,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,ONATASERTIB,CHEMBL3586404,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,OSI-027,CHEMBL3120215,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,PF-04691502,CHEMBL1234354,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,GEDATOLISIB,CHEMBL592445,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,3.0
+33,MTOR,APITOLISIB,CHEMBL1922094,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,VOXTALISIB,CHEMBL3545366,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,SAMOTOLISIB,CHEMBL4297181,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+33,MTOR,RIDAFOROLIMUS,CHEMBL2103839,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,3.0
+33,MTOR,PERHEXILINE MALEATE,CHEMBL1334033,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,4.0
+33,MTOR,VISTUSERTIB,CHEMBL2336325,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor,2.0
+34,SCN8A,ZANDATRIGINE,CHEMBL4650313,INHIBITOR,Sodium channel protein type VIII alpha subunit inhibitor,2.0
+38,NCAM1,ONCOLYSIN S,CHEMBL2109634,BINDING AGENT,Neural cell adhesion molecule 1 binding agent,2.0
+38,NCAM1,LORVOTUZUMAB MERTANSINE,CHEMBL1743037,BINDING AGENT,Neural cell adhesion molecule 1 binding agent,2.0
+40,SEMA4D,PEPINEMAB,CHEMBL4297884,INHIBITOR,Semaphorin-4D inhibitor,2.0
+41,FGF1,MUPARFOSTAT,CHEMBL4297163,INHIBITOR,Acidic fibroblast growth factor inhibitor,3.0
+41,FGF1,SURAMIN HEXASODIUM,CHEMBL413376,INHIBITOR,Acidic fibroblast growth factor inhibitor,3.0
+43,RXRA,SDX-101,CHEMBL1716091,MODULATOR,Retinoid X receptor alpha modulator,2.0
+43,RXRA,DANTHRON,CHEMBL53418,ANTAGONIST,Retinoid X receptor alpha antagonist,4.0
+44,CCND1,BRICICLIB,CHEMBL1206245,INHIBITOR,G1/S-specific cyclin D1 inhibitor,2.0
+46,HDAC1,VORINOSTAT,CHEMBL98,INHIBITOR,Histone deacetylase 1 inhibitor,4.0
+46,HDAC1,MOCETINOSTAT,CHEMBL272980,INHIBITOR,Histone deacetylase 1 inhibitor,2.0
+47,AKT1,BAY-1125976,CHEMBL4751394,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor,1.0
+47,AKT1,RUPITASERTIB,CHEMBL4871106,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor,2.0
+47,AKT1,SR-13668,CHEMBL245030,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor,1.0
+48,EGFR,PANITUMUMAB,CHEMBL1201827,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,CETUXIMAB,CHEMBL1201577,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,ERLOTINIB HYDROCHLORIDE,CHEMBL1079742,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,GEFITINIB,CHEMBL939,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,LAPATINIB DITOSYLATE,CHEMBL1201179,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,AFATINIB DIMALEATE,CHEMBL2105712,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,OSIMERTINIB MESYLATE,CHEMBL3545063,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,NECITUMUMAB,CHEMBL1743047,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,AC-480,CHEMBL1645462,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,ALLITINIB,CHEMBL1947204,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,AZD-4769,CHEMBL422872,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,FALNIDAMOL,CHEMBL258940,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,CEP-32496,CHEMBL2029988,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,CUDC-101,CHEMBL598797,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,OLMUTINIB,CHEMBL3786343,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,THELIATINIB,CHEMBL5314410,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,EPITINIB,CHEMBL5314411,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,JNJ-26483327,CHEMBL3109738,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,AV-412,CHEMBL6067986,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,PD-0166285 HYDROCHLORIDE,CHEMBL3545196,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,PKI-166,CHEMBL1963502,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,S-222611,CHEMBL3545200,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,TAK-285,CHEMBL1614725,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,PUQUITINIB MESYLATE DIHYDRATE,CHEMBL4545915,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,1.0
+48,EGFR,PYROTINIB,CHEMBL3647420,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,AEE-788,CHEMBL587723,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,BRIGATINIB,CHEMBL3545311,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,VARLITINIB,CHEMBL2103842,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,SAPITINIB,CHEMBL2408045,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,BMS-690514,CHEMBL3545396,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,ROCILETINIB,CHEMBL3545308,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,PELITINIB,CHEMBL607707,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,TESEVATINIB,CHEMBL3544983,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,NAZARTINIB,CHEMBL3787344,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,OSIMERTINIB,CHEMBL3353410,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,CANERTINIB DIHYDROCHLORIDE,CHEMBL545315,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,NERATINIB,CHEMBL180022,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,DACOMITINIB,CHEMBL2105719,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,SIMOTINIB,CHEMBL3545235,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,ZALUTUMUMAB,CHEMBL2107861,ANTAGONIST,Epidermal growth factor receptor erbB1 antagonist,3.0
+48,EGFR,MATUZUMAB,CHEMBL2108038,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,MAB-425,CHEMBL2109390,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,MDX-447,CHEMBL2109391,CROSS-LINKING AGENT,Epidermal growth factor receptor erbB1 cross-linking agent,2.0
+48,EGFR,IMGATUZUMAB,CHEMBL2109389,ANTAGONIST,Epidermal growth factor receptor erbB1 antagonist,2.0
+48,EGFR,NIMOTUZUMAB,CHEMBL2108359,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,FUTUXIMAB,CHEMBL2109388,ANTAGONIST,Epidermal growth factor receptor erbB1 antagonist,3.0
+48,EGFR,DEPATUXIZUMAB MAFODOTIN,CHEMBL3707277,BINDING AGENT,Epidermal growth factor receptor erbB1 binding agent,3.0
+48,EGFR,DULIGOTUZUMAB,CHEMBL3137345,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,IMGATUZUMAB,CHEMBL2109389,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,DACOMITINIB ANHYDROUS,CHEMBL2110732,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,NERATINIB MALEATE,CHEMBL3989921,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,CETUXIMAB SAROTALOCAN,CHEMBL4298088,BINDING AGENT,Epidermal growth factor receptor erbB1 binding agent,2.0
+48,EGFR,FIRMONERTINIB,CHEMBL4297258,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,PF-06459988,CHEMBL3786098,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,DEPATUXIZUMAB,CHEMBL3707294,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,MAVELERTINIB,CHEMBL3989970,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,NAQUOTINIB,CHEMBL3663929,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,TOMUZOTUXIMAB,CHEMBL4297842,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,AZD-3759,CHEMBL3623290,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,AUMOLERTINIB,CHEMBL4761468,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,ICOTINIB,CHEMBL2087361,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,ABIVERTINIB MALEATE,CHEMBL4297866,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,ABIVERTINIB,CHEMBL4297865,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,RUSERONTINIB,CHEMBL3678958,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,TUXOBERTINIB,CHEMBL4650279,NEGATIVE ALLOSTERIC MODULATOR,Epidermal growth factor receptor erbB1 negative allosteric modulator,1.0
+48,EGFR,CLN-081,CHEMBL4650281,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,GC1118,CHEMBL4650290,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,AMIVANTAMAB,CHEMBL4297774,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,RINDOPEPIMUT,CHEMBL2107863,VACCINE ANTIGEN,Epidermal growth factor receptor erbB1 vaccine antigen,3.0
+48,EGFR,MOBOCERTINIB,CHEMBL4650319,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,MODOTUXIMAB,CHEMBL3989988,ANTAGONIST,Epidermal growth factor receptor erbB1 antagonist,3.0
+48,EGFR,LAZERTINIB,CHEMBL4558324,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,PIMURUTAMAB,CHEMBL4594549,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,BAFISONTAMAB,CHEMBL4594472,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,2.0
+48,EGFR,MOBOCERTINIB SUCCINATE,CHEMBL4802239,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,MODOTUXIMAB,CHEMBL3989988,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,3.0
+48,EGFR,LAZERTINIB MESYLATE,CHEMBL6068478,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor,4.0
+48,EGFR,LOSATUXIZUMAB VEDOTIN,CHEMBL4594515,BINDING AGENT,Epidermal growth factor receptor binding agent,2.0
+49,ENPP2,ZIRITAXESTAT,CHEMBL3828074,INHIBITOR,Autotaxin inhibitor,3.0
+50,AXL,BPI-9016,CHEMBL3545236,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor,1.0
+50,AXL,GILTERITINIB,CHEMBL3301622,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor,4.0
+50,AXL,BEMCENTINIB,CHEMBL3809489,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor,2.0
+50,AXL,GILTERITINIB FUMARATE,CHEMBL3301603,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor,4.0
+50,AXL,ENAPOTAMAB VEDOTIN,CHEMBL4297987,BINDING AGENT,Tyrosine-protein kinase receptor UFO binding agent,2.0
+50,AXL,NINGETINIB,CHEMBL3984441,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor,2.0
+50,AXL,MECBOTAMAB VEDOTIN,CHEMBL5095312,BINDING AGENT,Tyrosine-protein kinase receptor UFO binding agent,2.0

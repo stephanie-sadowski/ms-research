@@ -1,0 +1,16 @@
+{
+  "file": "targets_repair_drugs.csv",
+  "created": "2026-11-13T00:11:02Z",
+  "msr_version": "0.1.0",
+  "source": "ChEMBL",
+  "source_id": "chembl",
+  "source_url": "https://www.ebi.ac.uk/chembl/",
+  "license": "CC BY-SA 3.0",
+  "terms_url": "https://platform-docs.opentargets.org/licence",
+  "query": {
+    "top_genes": 50,
+    "api": "https://www.ebi.ac.uk/chembl/api/data"
+  },
+  "rows": 252,
+  "notes": "Drugs acting on the top-ranked genes, with direction (action_type). CC BY-SA 3.0, from ChEMBL."
+}

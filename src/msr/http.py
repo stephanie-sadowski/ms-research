@@ -21,6 +21,8 @@ USER_AGENT = f"python-msr/{__version__}"
 # NCBI allows 3 requests/second without an API key.
 MIN_INTERVAL = {
     "eutils.ncbi.nlm.nih.gov": 0.34,
+    "www.ncbi.nlm.nih.gov": 0.34,
+    "www.ebi.ac.uk": 0.2,
     "clinicaltrials.gov": 0.2,
 }
 DEFAULT_INTERVAL = 0.5
@@ -88,3 +90,39 @@ def get_text(
 
 def get_json(url: str, params: dict[str, Any] | None = None, **kwargs: Any) -> Any:
     return json.loads(get_text(url, params, **kwargs))
+
+
+def post_json(url: str, payload: dict[str, Any], *, use_cache: bool = True, timeout: float = 120) -> Any:
+    """POST a JSON body (for GraphQL APIs) and return the parsed response, with caching."""
+    body_key = json.dumps(payload, sort_keys=True)
+    cached = _cache_file(url, {"post": body_key})
+    if use_cache and cached.exists():
+        return json.loads(cached.read_text())
+    host = urlparse(url).netloc
+    for attempt in range(5):
+        _wait_for(host)
+        response = _get_session().post(url, json=payload, timeout=timeout)
+        if response.status_code in RETRY_STATUSES and attempt < 4:
+            time.sleep(2**attempt)
+            continue
+        response.raise_for_status()
+        break
+    data = response.json()
+    if use_cache:
+        cached.write_text(json.dumps(data))
+    return data
+
+
+def download(url: str, dest: Path, *, refresh: bool = False, timeout: float = 600) -> Path:
+    """Download a (possibly large) file to dest, unless it is already there."""
+    if dest.exists() and not refresh:
+        return dest
+    _wait_for(urlparse(url).netloc)
+    tmp = dest.with_name(dest.name + ".part")
+    with _get_session().get(url, stream=True, timeout=timeout) as response:
+        response.raise_for_status()
+        with open(tmp, "wb") as f:
+            for chunk in response.iter_content(chunk_size=1 << 20):
+                f.write(chunk)
+    tmp.replace(dest)
+    return dest
